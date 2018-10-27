@@ -1,0 +1,13 @@
+#user/bin/env python
+a = 500
+b = 1.000
+c = 2.000
+d = 5.000
+e = 10.000
+f = 20.000
+g = 50.000
+h = 50.000 - 21.500
+def auo():
+     if g - f - b - a:
+        print (h)
+auo()
