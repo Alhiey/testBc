@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+</head>
+<body>
+<script type="text/javascript">
+	var text = {"nama":"blitar",
+	 "address":"jalan mawar",
+	 "married":false,
+	 "hobby":["sepak bola","game","ngoding"];
+	}
+	function data(){
+		return text;
+	}
+	data();
+</script>
+
+</body>
+</html>
