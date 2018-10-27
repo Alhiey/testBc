@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>from validasi</title>
+</head>
+
+
+<body>
+<?php
+$nma ='masukpakeko';
+$ps = 'sekarepmu';
+$num = '';
+$nama='A,@.+';
+$filter = filter_var($nama,echo 'ga cocok gan');
+if (isset($_GET['submit'])) {
+
+	if ($_GET['user'] == $nma && $_GET['pass'] == $ps){
+		validasi = $filter
+		header('location: index.php');
+	}else{
+		echo 'hayo mau ngapain';
+	}
+
+}
+
+
+
+?>
+
+	<form id="s" method="GET">
+	<label>USERNAME:<input type="text" name="user"></label>
+	<label>EMAIL:<input type="text" name="pass"></label>
+	<label>NUMBER:<input type="text" name="numb"></label>
+	<button type="submit">masuk pak eko</button>
+	</form>
+
+</body>
+</html>
