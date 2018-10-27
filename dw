@@ -1,0 +1,17 @@
+#usr/bin/env python
+print('''
+	dwdwdwdwdwd              dw                           dw
+	dw          dw           dw                           dw
+	dw            dw         dw                           dw
+	dw             dw        dw                           dw
+	dw              dw       dw                           dw
+	dw              dw       dw                           dw
+	dw              dw       dw                           dw
+	dw              dw       dw                           dw
+	dw             dw        dw                           dw
+	dw            dw         dw           dwdw            dw
+	dw           dw          dw        dw       dw        dw
+	dw          dw           dw     dw             dw     dw
+  dw         dw            dw  dw                   dw  dw
+  dwdwddwwddwd             dw                          dw
+	 ''')
