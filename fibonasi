@@ -1,0 +1,10 @@
+#usr/bin/env python
+def fibo():
+a,b,c= 0,1,0
+for x in  range(12):
+	print(a)
+	c = a+b
+	a=b
+	b=c
+
+fibo()
